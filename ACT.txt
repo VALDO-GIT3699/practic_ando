@@ -1,0 +1,91 @@
+# Práctica de HTML5 y CSS
+
+## Instrucciones
+
+Crear dos archivos de HTML5 y un archivo de CSS / o agrega el archivo css del framework elegido
+
+## Elementos comunes
+
+Ambos documentos de html deberán indicar:
+
+- Idioma español
+- Codificación utf8
+- Título para mostrar en pestaña/ventana de navegador
+- Archivo de css a utilizar
+
+- Agrega div con atributo class = nav / o implementar clase para navegación del FW de CSS
+- Dentro de la div, agregar enlaces:
+  - Hacia index.html
+  - Hacia formulario.html
+
+- Utilizar rutas relativas
+
+## Documento 1 (index.html)
+
+- Encabezado principal con su nombre
+
+- Sección: "Acerca de mi"
+- Agregar párrafo donde pongan una breve introducción de ustedes mismos.
+
+- Sección: "Mis conocimientos"
+- Crear lista no ordenada de conocimientos (mínimo 5). Pueden ser lenguajes de programación/framewors u otros no relacionados (fotografía, edición de video...)
+
+- Sección: "Mis fortalezas"
+- Crear lista ordenada de tus principales fortalezas (mínimo 3). Caracterísitcas que consideres te distingan
+
+- Sección: "Proyectos"
+- Agregar tabla con columnas:
+  - Nombre del proyecto
+  - Lenguaje(s)
+  - Descripción
+Agregar al menos 3 proyectos que hayan realizado.
+
+- Sección: "Persona que admiro"
+- Agregar fotografía de la persona. // ruta relativa
+- Agregar párrafo con el nombre de la persona en negritas y una breve descripción
+  de quien es.
+- Agregar enlace hacia wikipedia o sitio donde se pueda consultar su biografía // Abrir en nueva pestaña
+
+- Agrega una sección para footer que incluya:
+  - Sección: "Contáctame en..." (o algo similar)
+  - Enlace a correo electrónico //utilizar mail to
+
+## Documento 2 (formulario.html)
+
+- Título "Contacto"
+- Agregar formulario, especificar método (get) y destino (mismo archivo):
+  - Nombre // texto
+  - Correo // mail
+  - Genero // radio
+  - Contraseña // password
+  - Comentario // text area
+  - Ciudad: Guadalajara, Zapopan, Tonalá, Otra // select
+  - Me interesa contratarte // check
+  - Botón para enviar // button o input
+
+- Todos los campos deben tener su label respectivo y atributo name
+
+
+## Archivo de estilo *.css
+
+En caso de realizar a pie el archivo de css:
+Utiliza selectores (class, id, tag) para mejorar la apariencia de sus páginas.
+El ejercicio es libre, utilicen al menos 3 selectores con al menos 2 propiedades por selector.
+
+Algunas ideas son:
+
+ - Agregar una tipografía
+ - Utilizar negritas, cursivas, etc.
+ - Modificar el color de fondo de párrafos o divs.
+ - Modificar la alineación de algun texto
+ - Mejorar la apariencia de la tabla. (Bordes, color de fondo, alineación...)
+ - Agregar algún borde
+ - Modificar los enlaces de la div "nav" para eliminar el subrayado y cambiar color y/o tamaño al pasar el ratón sobre ellos
+ - Mostrar la imagen a la derecha del texto
+
+
+### Notas
+
+- Esta es una PRÁCTICA, así que pueden agregar más elementos de contenido o de estilo de los aquí solicitados, el objetivo es justamente que practiquen.
+
+- Carguen directamente los archivos html, css e imagen. POR FAVOR NO ZIP/RAR.

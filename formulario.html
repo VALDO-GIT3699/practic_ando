@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto con el Inge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="form_validation.js" defer></script>
+</head>
+<body>
+    <header class="nav">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="formulario.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <h1 style="text-align: center;">Contacto</h1>
+
+        <form id="contactForm" class="form-container">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <span class="error" id="nombre-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+                <span class="error" id="correo-error"></span>
+            </div>
+
+            <fieldset class="form-group">
+                <legend>Género:</legend>
+                <label>
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    Femenino
+                </label>
+                <span class="error" id="genero-error"></span>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" required></textarea>
+                <span class="error" id="comentario-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="ciudad">Ciudad:</label>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="guadalajara">Guadalajara</option>
+                    <option value="zapopan">Zapopan</option>
+                    <option value="tonala">Tonalá</option>
+                    <option value="otra">Otra</option>
+                </select>
+                <span class="error" id="ciudad-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="interes">Me interesa contratarte:</label>
+                <input type="checkbox" id="interes" name="interes">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="submit-button">
+            </div>
+        </form>
+
+        <div id="form-response" class="response"></div>
+    </main>
+
+    <footer class="footer">
+        <p>Contáctame en... <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+    </footer>
+</body>
+</html>

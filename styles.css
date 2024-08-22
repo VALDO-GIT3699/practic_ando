@@ -1,0 +1,217 @@
+/* Fondo del body con gradiente */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #7156de, #89b3d1); /* Gradiente de arriba hacia abajo */
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+.header {
+    text-align: center;
+    background: rgba(113, 86, 222, 0.8); /* Fondo semi-transparente para el encabezado */
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid rgba(113, 86, 222, 0.5); /* Borde sutil para mejorar la integración */
+}
+
+.nav {
+    background: linear-gradient(to bottom, #876def, #4242d4c6); /* Gradiente */
+    border-bottom: 2px solid #b0b0c0; /* Borde inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #748ca7;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.about-me, .skills, .projects, .admired-person {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.strengths {
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me p, .person-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.projects table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects th, .projects td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+}
+
+.person-info img {
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos adicionales para el formulario de contacto */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #575757;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+.response {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+/* Tipografía adicional */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
+
+/* Aplicar la nueva tipografía a títulos específicos */
+h1.main-title, h2 {
+    font-family: 'Lobster', cursive;
+}
+
+/* Estilos de negritas y cursivas */
+.about-me p, .person-info p, .strengths li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Modificar el color de fondo de párrafos y divs */
+.about-me, .skills, .projects, .strengths, .admired-person {
+    background-color: #f9f9f9; /* Color de fondo claro para secciones */
+}
+
+.about-me p, .person-info p {
+    background-color: #e6e6e6; /* Fondo ligeramente más oscuro para párrafos */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Mejorar la apariencia de la tabla */
+.projects table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+}
+
+.projects th, .projects td {
+    padding: 12px;
+    text-align: center; /* Centrando el texto */
+    border-bottom: 1px solid #ddd;
+}
+
+.projects th {
+    background-color: #333;
+    color: #fff;
+}
+
+.projects td {
+    background-color: #f9f9f9;
+}
+
+.projects tr:nth-child(even) {
+    background-color: #e6e6e6; /* Alternar colores de fondo para filas pares */
+}
+
+/* Agregar bordes */
+.about-me, .skills, .projects, .strengths, .admired-person {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.person-info img {
+    border: 3px solid #333; /* Borde alrededor de la imagen */
+}
